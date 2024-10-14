@@ -1,0 +1,20 @@
+.image:hover {
+  transform: scale(1.3);
+  transition: transform 0.5s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  filter: brightness(1.2);
+  box-shadow: 0 0 20px 10px rgba(203, 165, 14, 0.8);
+}
+
+.author-name {
+  font-family: "Cursive", sans-serif;
+  font-size: 1.2em;
+  color: #cb9f0e;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  transition: color 0.3s, text-shadow 0.3s;
+}
+
+.author-name:hover {
+  color: #ffcc00;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
